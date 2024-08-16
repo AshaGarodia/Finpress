@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<test thread-count="1" name="Test">
+    <classes>
+      <class name="TecharkTest.Finpress.Tests.LoginTest"/>
+    </classes>
+  </test> 
+  
+  <test thread-count="1" name="ManagemembersTest">
+    <classes>
+      <class name="TecharkTest.Finpress.Tests.Finpress_ManageMembers"/>
+    </classes>
+  </test> 
+  
+  <test thread-count="1" name="ManageCategoriesTest">
+    <classes>
+      <class name="TecharkTest.Finpress.Tests.Finpress_ContactCategories"/>
+    </classes>
+  </test>
+  
+</suite> 
+	
